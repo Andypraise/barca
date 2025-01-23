@@ -1,0 +1,73 @@
+/* resetting the css */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: red;
+}
+header h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+header nav {
+  padding-top: 2em;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  padding-left: 30em;
+  padding-bottom: 50px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.fast {
+  padding-top: 15em;
+  text-align: center;
+  font-size: 1em;
+  height: 20em;
+  background-color: rgba(255, 0, 13, 0.363);
+}
+.fast button {
+  padding: 15px 20px;
+  border-radius: 2em;
+  border: none;
+  background-color: red;
+}
+button:hover {
+  color: blue;
+  background-color: black;
+}
+
+p {
+  padding-top: 2em;
+  font-size: 1.5em;
+}
+.god {
+  padding-top: 3em;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 1em;
+  padding: 30px 50px;
+}
